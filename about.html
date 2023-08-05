@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>CPE 3 Game Development Assignment</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+	<script src="https://kit.fontawesome.com/2b81f06032.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="sub-header">
+	<nav>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-window-minimize" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="homepage.html">HOME</a></li>
+				<li><a href="about.html">ABOUT ME</a></li>
+				<li><a href="achievements.html">ACHIEVEMENTS</a></li>
+				<li><a href="travels.html">TRAVELS</a></li>
+				<li><a href="cv.html">MY CV RESUME</a></li>
+			</ul>
+		</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	<h1>About Me</h1>
+</section>
+
+<!=========== ABOUT US CONTENT ===========>
+<section class="about-us">
+
+	<div class="row">
+		<div class="about-col">
+			<h1>Hi, I'm Nikka Pauline D. Generalao.</h1>
+			<p>I am 19 years old and I currently live in Bataan. I was a senior high school STEM graduate from
+				Hermosa National High School, and right now, I am a 2nd-year computer engineering student
+				at the Polytechnic University of the Philippines. Growing up, I knew I wanted to be a biologist, or
+				at the very least, someone who worked outside, in the wilderness, risking my life for science. But,
+				here I am in front of a computer, probably the place where I will spend most of my time from now on,
+				studying computer engineering.</p>
+			<p>Technologies I've been working on:
+			<ul>
+			<li>Python</li>
+			<li>HTML & CSS</li>
+			</ul>
+			<p>Outside of school, I am interested a lot in Astronomy, History, reading novels, and watching movies.
+				I also love watching Tiktok and YouTube videos.</p>
+		</div>
+		<div class="about-col">
+			<img src="img/pabebe.jpg">
+		</div>
+	</div>
+
+</section>
+
+<section class="footer">
+	<h4>About Me</h4>
+	<p> I'm a 2nd-year computer engineering student at the Polytechnic University of the Philippines,<br>
+			and I'm on a mission to learn everything there is to know about programming.</p>
+	<div class="icons">
+		<a href="https://www.facebook.com/nikkapgeneralao"><i class="fa fa-facebook"></i></a>
+		<a href="https://twitter.com/nikkapdg_"><i class="fa fa-twitter"></i></a>
+		<a href="https://www.instagram.com/nikkapauline_/"><i class="fa fa-instagram"></i></a>
+		<a href="https://www.linkedin.com/in/nikka-pauline-generalao-8203b5255/"><i class="fa fa-linkedin"></i></a>
+		<a href="mailto:nikkapgeneralao@gmail.com"><i class="fa fa-envelope"></i></a>
+	</div>
+	<h5>"scientia ipsa potentia est"</h5><p>Copyright <i class="fa fa-copyright"></i> 2022 Nikka Pauline D. Generalao</p>
+</section>
+
+
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+
+</body>
+</html>

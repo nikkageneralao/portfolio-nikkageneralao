@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>CPE 3 Game Development Assignment</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+	<script src="https://kit.fontawesome.com/2b81f06032.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="sub-header">
+	<nav>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-window-minimize" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="homepage.html">HOME</a></li>
+				<li><a href="about.html">ABOUT ME</a></li>
+				<li><a href="achievements.html">ACHIEVEMENTS</a></li>
+				<li><a href="travels.html">TRAVELS</a></li>
+				<li><a href="cv.html">MY CV RESUME</a></li>
+			</ul>
+		</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	<h1>Travel Experience</h1>
+</section>
+
+<!=========== TRAVELS CONTENT ===========>
+
+<section class="about-us">
+	<div class="row">
+		<div class="about-col1">
+			<img src="img/baguio2.jpg">
+		</div>
+		<div class="about-coll">
+			<h1>Baguio City</h1>
+			<p>I think this is the farthest place I've visited in my 19 years here on Earth, and by far the most beautiful, too.
+			Our whole family go there and our experience there is a memorable one. Me and my siblings get to wear Igorot clothing after we picked strawberries. I wished we wear the Igorot clothing while picking strawberry haha.</p>
+		</div>
+	</div>
+<section class="about-us">
+	<div class="row">
+		<div class="about-col4">
+			<img src="img/tala2.jpg">
+		</div>
+		<div class="about-colll">
+			<h1>Tala Viewdeck</h1>
+			<p>It is located here in our province, Bataan. It is only in the neighboring town called Orani so the travel is not very far but Viewdeck is located up in the mountains so the travel is kinda hard. Not being bias but the view here is insane. </p>
+		</div>
+	</div>
+</section>
+
+<section class="academics2">
+	<h1>Travel Wishlist</h1>
+	<div class="row">
+		<div class="trav-col">
+			<h3>Siargao</h3>
+			<img src="img/siargao.jpg" width = "300" height="300" />
+		</div>
+		<div class="trav-col2">
+			<h3>Batanes</h3>
+			<img src="img/batanes.jpg" width = "300" height="300" />
+		</div>
+		<div class="trav-col">
+			<h3>South Korea</h3>
+			<img src="img/sokor.jpg" width = "300" height="300" />
+		</div>
+	</div>
+</section>
+
+<section class="footer">
+	<h4>About Me</h4>
+	<p> I'm a 2nd-year computer engineering student at the Polytechnic University of the Philippines,<br>
+			and I'm on a mission to learn everything there is to know about programming.</p>
+	<div class="icons">
+		<a href="https://www.facebook.com/nikkapgeneralao"><i class="fa fa-facebook"></i></a>
+		<a href="https://twitter.com/nikkapdg_"><i class="fa fa-twitter"></i></a>
+		<a href="https://www.instagram.com/nikkapauline_/"><i class="fa fa-instagram"></i></a>
+		<a href="https://www.linkedin.com/in/nikka-pauline-generalao-8203b5255/"><i class="fa fa-linkedin"></i></a>
+		<a href="mailto:nikkapgeneralao@gmail.com"><i class="fa fa-envelope"></i></a>
+	</div>
+	<h5>"scientia ipsa potentia est"</h5><p>Copyright <i class="fa fa-copyright"></i> 2022 Nikka Pauline D. Generalao</p>
+</section>
+
+
+
+
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+
+</body>
+</html>

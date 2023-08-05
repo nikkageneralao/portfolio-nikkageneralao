@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>CPE 3 Game Development Assignment</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+	<script src="https://kit.fontawesome.com/2b81f06032.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="header">
+	<nav>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-window-minimize" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="homepage.html">HOME</a></li>
+				<li><a href="about.html">ABOUT ME</a></li>
+				<li><a href="achievements.html">ACHIEVEMENTS</a></li>
+				<li><a href="travels.html">TRAVELS</a></li>
+				<li><a href="cv.html">MY CV RESUME</a></li>
+			</ul>
+		</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+
+	<div class="text-box">
+		<h1>Hello World! I'm Nikka.</h1>
+	<div class="second-text">
+		<h4><p>and this is my first ever website.</p></h4>
+	</div>
+	</section>
+
+<!------- academics ----------->
+
+<section class="academics">
+	<h1>Education</h1>
+	<p>(See more on Achievements tab)</p>
+	<div class="row">
+		<div class="academics-col">
+			<h3>Elementary</h3>
+			<p>Mambog Elementary School</p>
+			<img src="img/elem.jpg" width = "300" height="300" />
+		</div>
+		<div class="academics-col2">
+			<h3>Junior High School</h3>
+			<p>Hermosa National High School</p>
+			<img src="img/jhs.jpg" width = "300" height="300" />
+		</div>
+		<div class="academics-col">
+			<h3>Senior High School</h3>
+			<p>Hermosa National High School</p>
+			<img src="img/shs.jpg" width = "300" height="300" />
+		</div>
+	</div>
+</section>
+
+<section class="travels">
+	<h1>Travel Experiences</h1>
+	<p>(See more on Travels tab)</p>
+
+	<div class="row">
+		<div class="baguio-col">
+			<img src="img/baguio.png" height="560"/>
+			<div class="layer">
+				<h3>BAGUIO CITY</h3>
+			</div>
+		</div>
+		<div class="baguio-col">
+			<img src="img/tala.png" height="560"/>
+			<div class="layer">
+				<h3>TALA VIEWDECK</h3>
+			</div>
+		</div>
+		<div class="baguio-col1">
+			<img src="img/wish.png" height="560"/>
+			<div class="layer">
+				<h3>TRAVEL WISHLIST</h3>
+			</div>
+		</div>
+</section>
+
+<section class="footer">
+	<h4>About Me</h4>
+	<p> I'm a 2nd-year computer engineering student at the Polytechnic University of the Philippines,<br>
+			and I'm on a mission to learn everything there is to know about programming.</p>
+	<div class="icons">
+		<a href="https://www.facebook.com/nikkapgeneralao"><i class="fa fa-facebook"></i></a>
+		<a href="https://twitter.com/nikkapdg_"><i class="fa fa-twitter"></i></a>
+		<a href="https://www.instagram.com/nikkapauline_/"><i class="fa fa-instagram"></i></a>
+		<a href="https://www.linkedin.com/in/nikka-pauline-generalao-8203b5255/"><i class="fa fa-linkedin"></i></a>
+		<a href="mailto:nikkapgeneralao@gmail.com"><i class="fa fa-envelope"></i></a>
+	</div>
+	<h5>"scientia ipsa potentia est"</h5><p>Copyright <i class="fa fa-copyright"></i> 2022 Nikka Pauline D. Generalao</p>
+</section>
+
+
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+
+</body>
+</html>

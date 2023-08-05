@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>CPE 3 Game Development Assignment</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+	<script src="https://kit.fontawesome.com/2b81f06032.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="sub-header">
+	<nav>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-window-minimize" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="homepage.html">HOME</a></li>
+				<li><a href="about.html">ABOUT ME</a></li>
+				<li><a href="achievements.html">ACHIEVEMENTS</a></li>
+				<li><a href="travels.html">TRAVELS</a></li>
+				<li><a href="cv.html">MY CV RESUME</a></li>
+			</ul>
+		</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	<h1>My Achievements</h1>
+</section>
+
+<!=========== ACHIEVEMENTS CONTENT ===========>
+
+<section class="academics">
+	<h1>Education</h1>
+	<p>A little bit about my school life</p>
+
+	<div class="row">
+		<div class="academics-col">
+			<h3>Elementary</h3>
+			<p>Mambog Elementary School</p>
+			<img src="img/elem.jpg" width = "300" height="300" />
+		</div>
+		<div class="academics-col2">
+			<h3>Junior High School</h3>
+			<p>Hermosa National High School</p>
+			<img src="img/jhs.jpg" width = "300" height="300" />
+		</div>
+		<div class="academics-col">
+			<h3>Senior High School</h3>
+			<p>Hermosa National High School</p>
+			<img src="img/shs.jpg" width = "300" height="300" />
+		</div>
+	</div>
+</section>
+<section class="academics">
+	<h1>My Academic Achievements</h1>
+</section>
+<section class="about-us">
+	<div class="row">
+		<div class="about-col1">
+			<img src="img/elem2.jpg">
+		</div>
+		<div class="aboutt-col">
+			<h1>Elementary</h1>
+			<p>I studied from grade 1 to grade 6 at Mambog Elementary School. </p>
+			<p>My elementary achievements:
+			<ul>
+			<li>2nd Honorable Mention</li>
+			<li>Science Feature Writing: 2nd Place</li>
+			<li>English Oral Reading: Participant</li>
+			<li>School Athlete: Volleyball</li>
+			</ul>
+		</div>
+	</div>
+
+<section class="about-us">
+	<div class="row">
+		<div class="about-col2">
+			<img src="img/jhs2.jpg">
+		</div>
+		<div class="abouttt-col">
+			<h1>Junior High School</h1>
+			<p>I studied from grade 7 to grade 10 at Hermosa National School. </p>
+			<p>My jhs achievements:
+			<ul>
+			<li>With Honor</li>
+			<li>Science Feature Writing English: Participant</li>
+			</ul>
+		</div>
+	</div>
+
+<section class="about-us">
+	<div class="row">
+		<div class="about-col3">
+			<img src="img/shs2.jpg">
+		</div>
+		<div class="abouttt-col">
+			<h1>Senior High School</h1>
+			<p>I studied from grade 11 to grade 12 at Hermosa National High School. </p>
+			<p>My shs achievements:
+			<ul>
+			<li>With Honor</li>
+			</ul>
+		</div>
+	</div>
+
+<section class="footer">
+	<h4>About Me</h4>
+	<p> I'm a 2nd-year computer engineering student at the Polytechnic University of the Philippines,<br>
+			and I'm on a mission to learn everything there is to know about programming.</p>
+	<div class="icons">
+		<a href="https://www.facebook.com/nikkapgeneralao"><i class="fa fa-facebook"></i></a>
+		<a href="https://twitter.com/nikkapdg_"><i class="fa fa-twitter"></i></a>
+		<a href="https://www.instagram.com/nikkapauline_/"><i class="fa fa-instagram"></i></a>
+		<a href="https://www.linkedin.com/in/nikka-pauline-generalao-8203b5255/"><i class="fa fa-linkedin"></i></a>
+		<a href="mailto:nikkapgeneralao@gmail.com"><i class="fa fa-envelope"></i></a>
+	</div>
+	<h5>"scientia ipsa potentia est"</h5><p>Copyright <i class="fa fa-copyright"></i> 2022 Nikka Pauline D. Generalao</p>
+</section>
+
+
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+
+</body>
+</html>
